@@ -1,0 +1,168 @@
+@media screen and (max-width: 1200px) {
+   .corel-draw_img i{
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      text-align: center;
+   }
+}
+
+@media screen and (max-width: 992px) {
+   .corel-draw{
+      width: 100%;
+      flex-direction: column;
+   }
+   .left-side{
+      width: 100%;
+      text-align: center;
+   }
+   .corel-draw_teacher{
+      justify-content: center;
+   }
+   .corel-draw_img::after{
+      width: 100%;
+      object-fit: cover;
+   }
+   .corel-draw_img i{
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      top: 40%;
+      text-align: center;
+   }
+   .corel-draw_title, .discount-title{
+      font-size: 30px;
+   }
+   .raitings-num{
+      font-size: 50px;
+   }
+   .order-btn{
+      margin-top: 30px;
+      padding: 14px 0;
+   }
+   .raiting-row{
+      margin-top: 20px;
+   }
+   .right-side{
+      display: flex;
+      width: 100%;
+      gap: 20px;
+      padding: 20px 0;
+   }
+   .discount-page{
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+   }
+   .raiting-page{
+      padding: 20px;
+      width: 100%;
+      max-height: 100%;
+      margin: 0;
+   }
+   .order-btn{
+      margin-top: 20px;
+   }
+}
+
+@media screen and (max-width: 780px){
+   .right-side{
+      flex-wrap: wrap;
+   }
+   .corel-draw_img i{
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      top: 40%;
+      text-align: center;
+   }
+   .discount-page{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 20px;
+      row-gap: 10px;
+      padding: 20px;
+   }
+   .discount-title{
+      font-size: 25px;
+      flex: 1 1 100%;
+   }
+   .discount-info{
+      flex: 1 1 100%;
+      margin: 10px 0 0 0;
+   }
+   .order-btn{
+      flex: 1 1 100%;
+      padding: 10px 0;
+      margin-top: 20px;
+   }
+   .raiting-page{
+      padding: 20px;
+   }
+   .raitings-num{
+      font-size: 40px;
+   }
+   .raiting-row{
+      width: 100%;
+      margin-top: 10px;
+   }
+}
+
+@media screen and (max-width: 569px){
+   .corel-draw{
+      gap: 10px;
+   }
+   .corel-draw_teacher{
+      margin-top: 20px;
+      flex-direction: column;
+      gap: 6px;
+   }
+   .corel-draw_title{
+      font-size: 20px;
+   }
+   .corel-draw_img{
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: 20px;
+   }
+   .corel-draw_img i{
+      z-index: 1;
+   }
+   .discount-page{
+      padding: 16px;
+      row-gap: 0;
+   }
+   .discount-title{
+      font-size: 18px;
+   }
+   .discount-info{
+      font-size: 16px;
+      margin-bottom: 6px;
+   }
+   .course-item{
+      font-size: 14px;
+      margin-top: 6px;
+   }
+   .order-btn{
+      margin-top: 14px;
+      padding: 6px 0;
+   }
+   .raiting-page{
+      padding: 10px;
+   }
+   .raitings-num{
+      font-size: 30px;
+   }
+   .raiting-row{
+      margin-top: 10px;
+      width: 100%;
+   }
+   .raiting-text{
+      margin: 0;
+   }
+}
